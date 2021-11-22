@@ -1,0 +1,156 @@
+@charset "utf-8";
+header {
+    background-color: #430E59;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+
+.box-conteiner-flex >div, .box-conteiner-flex-3 >div{
+		width:400px;
+		margin: 10px;
+		padding:20px;
+		font-size:20px;
+	    color: #430E59;
+       
+}
+
+.box-conteiner-flex-3>div{ 
+			width:10%;
+		}
+
+.box-conteiner-flex{ 
+		background-color: #F2B705;
+		display:flex;
+	    justify-content: center;
+		align-items: center;
+	    text-align: center;
+		}
+.box-conteiner-flex-3{ 
+		background-color: #5865F5;
+		display:flex;
+		flex-wrap:wrap;
+	margin: 20px;
+		}
+
+header, nav, main ,footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*  {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    background-color: #F2B705;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: medium double #571673;
+}
+
+main {
+    background-color: #F2C572;
+    padding: 50px;
+    color: #1A1A1A;
+}
+footer {
+    height: 80px;
+    background-color: #430E59;
+}
+footer h5 {
+    color: #FFFFFF;
+    font-size: 24px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    left: 50%;
+    padding-top: 25px;
+}
+
+
+
+
+nav {
+    height: auto;
+    background-color:#F2B705;
+    text-align: center;
+}
+body nav ul {
+    text-decoration: none;
+    list-style-type: none;
+
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    color: #F8F8F8;
+    font-weight: bolder;
+    top: auto;
+}
+
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color:#430E59;
+	font-weight: bolder;
+}
+a:hover   {
+    color: #FF0202;
+    font-weight: bold;
+    font-size: large;
+}
+
+#Enlace2 {
+}
+#Enlace3 {
+}
+#Enlace4 {
+}
+#Enlace2 {
+}
+main section h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #430E59;
+}
+main section p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #571673;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+img {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
